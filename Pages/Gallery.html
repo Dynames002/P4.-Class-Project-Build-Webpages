@@ -1,0 +1,115 @@
+<!-- DEVELOPER: Rodrigo Torres, IS117-005, Fall 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/main.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light custom-navbar py-3">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Images/DaisyLogo.png" alt="Daisy Jewelry Logo" style="height: 90px;">
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                <ul class="navbar-nav gap-2">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-rounded dropdown-toggle" href="#" id="collectionsDropdown"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="../Pages/NewItems.html">New Items</a></li>
+                            <li><a class="dropdown-item" href="../Pages/FeaturedItems.html">Featured Items</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-rounded" href="../Pages/About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-rounded" href="../Pages/Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-rounded active" href="../Pages/Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-10 col-lg-9"><h2 class="mb-4">Our Past Designs:</h2>
+                <div class="row mb-5 align-items-start">
+
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="border p-3 text-center">
+                            <img src="../Images/DarkRed_Rosary2.jpg" class="img-fluid" alt="Past Item #1">
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <h5>Description:</h5>
+                        <p>A Custom made Rosary using Dark Red beads. This had been specifically made for a Customer
+                        as a gift for one of their parents.</p>
+                    </div>
+                    <div class="col md-3 mb-3 mb-md-0">
+                        <div class="border p-3 text-center">
+                            <img src="../Images/Blue_Rosary2.jpg" class="img-fluid" alt="Past Item #3">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Description</h5>
+                        <p>An Elegantly made Blue Rosary that had been made for a babies Baptism,
+                        Very well-made and perfect for a baby
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-5 align-items-start">
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="border p-3 text-center">
+                            <img src="../Images/Purple_Rosary3.jpg" class="img-fluid" alt="Past Item #2">
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <h5>Description:</h5>
+                        <p>
+                            A Purple and white bead Rosary that had been made by our founder as a gift for their little sister for their birthday, as Purple is one of their favourite colors.
+                        </p>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="border p-3 text-center">
+                            <img src="../Images/Keychain_Rosary1.jpg" class="img-fluid" alt="Past Item #4">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Description:</h5>
+                        <p>
+                            A Limited time product that had been made to test its popularity, and it was popular at launch. Expect more to be made in the future as we saw how much they were loved by our customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row"><span
+                    class="text-muted">&copy; Rodrigo Torres, 2025 | Terms Of Use | Privacy Statement</span></div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
